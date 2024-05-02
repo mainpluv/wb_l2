@@ -12,6 +12,7 @@ import (
 	"time"
 )
 
+// создаем структуры и описываем основные методы
 type EventHandler struct {
 	eventService *service.EventService
 }
